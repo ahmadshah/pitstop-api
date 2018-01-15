@@ -6,7 +6,7 @@ const InventorySchema = new mongoose.Schema(
     {
         name: String,
         sku: String,
-        
+        quantity: Number
     },
     { minimize: true }
 );
